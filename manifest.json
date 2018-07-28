@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Zoom Lock",
+  "version": "1.0",
+  "author": "Rob Hoelz",
+  "description": "Prevents zooming on webpages",
+
+  "page_action": {
+      "browser_style": true,
+      "default_icon": "icons/locked.svg",
+      "default_title": "Zoom locked",
+      "show_matches": ["<all_urls>"]
+  },
+
+  "background": {
+      "scripts": [
+          "background.js"
+      ]
+  }
+}
